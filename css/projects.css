@@ -37,7 +37,7 @@
   transform: translateY(-50%);
   font-size: 30px;
   cursor: pointer;
-  color: #68d372;
+  color: #dc143c; /* Changed to crimson */
   z-index: 10;
   background: transparent;
 }
@@ -67,7 +67,7 @@
 }
 
 .project-data-wrapper .navigation .focused {
-  background: #68d372;
+  background: #dc143c; /* Changed to crimson */
   scale: 140%;
   transition: all 0.4s ease;
 }
@@ -125,7 +125,7 @@
 }
 
 .project-card .technologies .stack-badge:hover {
-  background-color: #68d372;
+  background-color: #dc143c; /* Changed to crimson */
 }
 
 .project-card .btn:hover {
