@@ -40,7 +40,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #68d372;
+  background: #DC143C; /* Changed to crimson */
   border-radius: 4px;
 }
 
@@ -66,7 +66,7 @@ body {
   }
   25% {
     d: path(
-      "M 0,400 C 0,400 0,200 0,200 C 70.93846153846152,195.9897435897436 141.87692307692305,191.9794871794872 233,204 C 324.12307692307695,216.0205128205128 435.4307692307692,244.07179487179485 515,256 C 594.5692307692308,267.92820512820515 642.4,263.73333333333335 713,261 C 783.6,258.26666666666665 876.9692307692308,256.99487179487176 956,252 C 1035.0307692307692,247.00512820512822 1099.7230769230769,238.2871794871795 1178,229 C 1256.2769230769231,219.7128205128205 1348.1384615384616,209.85641025641024 1440,200 C 1440,200 1440,400 1440,400 Z"
+      "M 0,400 C 0,400 0,200 0,200 C 70.93846153846152,195.9897435897436 141.87692307692305,191.9794871794872 233,204 C 324.12307692307695,216.0205128205128 435.4307692307692,244.07179487179485 515,256 C 594.5692307692308,267.92820512820515 642.4,263.73333333333335 713,261 C 783.6,258.26666666666665 876.9692307692308,256.99487179487176 956,252 C 1035.0307692307692,247.00512820512822 1099.7230769230769,238.2871794871795 1178,229 C 1256.2769230769231,219.7128205128205 134 8.1384615384616,209.85641025641024 1440,200 C 1440,200 1440,400 1440,400 Z"
     );
   }
   50% {
@@ -91,13 +91,13 @@ a {
 }
 
 a:hover {
-  color: #68d372;
+  color: #DC143C; /* Changed to crimson */
 }
 
 nav .cv-download {
   color: #ffffff;
   border: none;
-  background-color: #68d372;
+  background-color: #DC143C; /* Changed to crimson */
   padding: 15px 20px;
   /* padding: 15px auto; */
 }
@@ -117,7 +117,7 @@ input:focus,
 textarea:focus {
   outline: 0px !important;
   -webkit-box-shadow: none !important;
-  box-shadow: none !important;
+  box-shadow : none !important;
 }
 
 .btn-outline-success {
@@ -131,7 +131,7 @@ textarea:focus {
 }
 
 .btn-outline-success:hover {
-  background-color: #4ea156;
+  background-color: #DC143C; /* Changed to crimson */
 }
 
 h1 {
@@ -152,7 +152,7 @@ h6 {
 }
 
 .green {
-  color: #68d372;
+  color: #DC143C; /* Changed to crimson */
   font-size: 30px;
   font-weight: 900;
 }
@@ -174,7 +174,7 @@ h6 {
 .navbar .nav-brand {
   position: absolute;
   top: 0;
-  background-color: #68d372;
+  background-color: #DC143C; /* Changed to crimson */
   display: inline-block;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -201,18 +201,18 @@ h6 {
 }
 
 .navbar li .nav-link:hover {
-  color: #68d372;
+  color: #DC143C; /* Changed to crimson */
 }
 
 .navbar li .active {
-  color: #68d372;
+  color: #DC143C; /* Changed to crimson */
 }
 
 .navbar .button {
   position: relative;
   float: right;
   color: white;
-  background-color: #68d372;
+  background-color: #DC143C; /* Changed to crimson */
   width: max-content;
   cursor: pointer;
 }
@@ -271,7 +271,7 @@ h6 {
 
 #nav-icon span:nth-child(2) {
   top: 10px;
-  background-color: #68d372;
+  background-color: #DC143C; /* Changed to crimson */
 }
 
 #nav-icon span:nth-child(3) {
@@ -292,7 +292,7 @@ h6 {
   left: -60px;
 }
 
-#nav-icon.open span:nth-child(3) {
+#nav-icon.open span:nth-child(3 ) {
   top: 10px;
   width: 30px;
   -webkit-transform: rotate(-135deg);
@@ -334,7 +334,7 @@ h6 {
 
 #progress-bar {
   height: 5px;
-  background-color: #68d372;
+  background-color: #DC143C; /* Changed to crimson */
   width: 0%;
 }
 
@@ -346,8 +346,8 @@ h6 {
   font-size: 20px;
   font-family: "Koulen";
   letter-spacing: 1px;
-  color: #68d372 !important;
-  border: 2px solid #68d372;
+  color: #DC143C; /* Changed to crimson */
+  border: 2px solid #DC143C; /* Changed to crimson */
   border-radius: 20px;
   box-shadow: 10px 10px 30px #1d1d1d50, -10px -10px 30px #27272750;
 }
@@ -376,7 +376,7 @@ h6 {
 }
 
 .section-title {
-  color: #68d372;
+  color: #DC143C; /* Changed to crimson */
   font-weight: bold;
   font-size: 20px;
   text-align: center;
@@ -414,7 +414,7 @@ h6 {
 }
 
 #intro-p:hover {
-  color: #68d372;
+  color: #DC143C; /* Changed to crimson */
   display: inline-block;
   animation: rubberBand;
   animation-duration: 1s;
@@ -437,14 +437,14 @@ h6 {
 }
 
 .btn-contact {
-  background-color: #68d37200 !important;
-  border: 2px solid #68d372;
+  background-color: #DC143C00 !important;
+  border: 2px solid #DC143C; /* Changed to crimson */
   transition: background-color 0.2s ease-in-out;
   cursor: pointer;
 }
 
 .btn-contact:hover {
-  background-color: #68d372 !important;
+  background-color: #DC143C !important;
 }
 
 .intro-btns {
@@ -467,7 +467,7 @@ h6 {
 
 .intro-p-url:hover {
   cursor: pointer;
-  color: #68d372 !important;
+  color: #DC143C !important;
   text-decoration: underline;
   animation: rubberBand;
   animation-duration: 1s;
@@ -477,7 +477,7 @@ h6 {
 #intro a {
   display: flex;
   align-items: center;
-  -webkit-box-pack: justify;
+  - webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: center;
   text-align: left;
@@ -505,7 +505,7 @@ h6 {
 }
 
 #intro .scroll:hover {
-  color: #68d372;
+  color: #DC143C; /* Changed to crimson */
   transition: color 0.5s ease-in-out;
   animation: flash;
   animation-duration: 1s;
@@ -591,7 +591,7 @@ h6 {
   width: 100%;
   cursor: grab;
   margin-bottom: 25px;
-  border-left: 5px solid #68d372;
+  border-left: 5px solid #DC143C; /* Changed to crimson */
   border-radius: 8px;
 }
 
@@ -656,7 +656,7 @@ h6 {
 }
 
 #skills .container .div-card-item:hover #skills .container .div-card span {
-  color: #68d372;
+  color: #DC143C; /* Changed to crimson */
 }
 
 #skills .container .div-card .skill-level {
@@ -789,7 +789,7 @@ h6 {
 .timeline ul li {
   padding: 10px;
   background-color: #222222;
-  border: 2px solid #68d372;
+  border: 2px solid #DC143C; /* Changed to crimson */
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.5);
   text-align: left;
   color: white;
@@ -814,17 +814,17 @@ h6 {
   position: relative;
   color: #222222;
   margin-right: 5px;
-  -webkit-text-stroke: 1px #68d372;
+  -webkit-text-stroke: 1px #DC143C; /* Changed to crimson */
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
 }
 
 .timeline-content .education::before {
   content: "\f19d";
-  position: relative;
+  position: relative ;
   color: #222222;
   margin-right: 5px;
-  -webkit-text-stroke: 1px #68d372;
+  -webkit-text-stroke: 1px #DC143C; /* Changed to crimson */
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
 }
@@ -833,7 +833,7 @@ h6 {
   content: "\e56b";
   position: relative;
   color: #222222;
-  -webkit-text-stroke: 1px #68d372;
+  -webkit-text-stroke: 1px #DC143C; /* Changed to crimson */
   margin-right: 5px;
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
@@ -844,7 +844,7 @@ h6 {
   position: relative;
   color: #222222;
   margin-right: 5px;
-  -webkit-text-stroke: 1px #68d372;
+  -webkit-text-stroke: 1px #DC143C; /* Changed to crimson */
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
 }
@@ -853,7 +853,7 @@ h6 {
   content: "\f1ad";
   position: relative;
   color: #222222;
-  -webkit-text-stroke: 1px #68d372;
+  -webkit-text-stroke: 1px #DC143C; /* Changed to crimson */
   margin-right: 5px;
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
@@ -874,7 +874,7 @@ h6 {
   content: "\f57e";
   position: relative;
   color: #222222;
-  -webkit-text-stroke: 1px #68d372;
+  -webkit-text-stroke: 1px #DC143C; /* Changed to crimson */
   margin-right: 5px;
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
@@ -897,8 +897,8 @@ h6 {
 .timeline-content .date::before {
   content: "\f783";
   position: relative;
-  color: #68d37250;
-  -webkit-text-stroke: 1px #68d372;
+  color: #DC143C50; /* Changed to crimson */
+  -webkit-text-stroke: 1px #DC143C; /* Changed to crimson */
   margin-right: 5px;
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
@@ -929,7 +929,7 @@ h6 {
 
 .btn-send-message {
   color: #ffffff;
-  background-color: #68d372;
+  background-color: #DC143C; /* Changed to crimson */
   pointer-events: auto !important;
   padding: 8px 20px;
   cursor: pointer !important;
@@ -1000,7 +1000,7 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  filter: invert(96%) sepia(75%) saturate(913%) hue-rotate(53deg)
+  filter: invert(96%) sepia(75%) saturate (913%) hue-rotate(53deg)
     brightness(89%) contrast(83%);
   border-radius: 50%;
   width: 30px;
@@ -1039,8 +1039,8 @@ h6 {
 
 #intro .button {
   color: white;
-  background-color: #68d372;
-  border: 2px solid #68d372;
+  background-color: #DC143C; /* Changed to crimson */
+  border: 2px solid #DC143C; /* Changed to crimson */
   padding: 8px 20px;
 }
 
@@ -1050,12 +1050,12 @@ h6 {
 }
 
 .swal-icon--success__ring {
-  border: 4px solid #68d372;
+  border: 4px solid #DC143C; /* Changed to crimson */
 }
 
 .swal-icon--success__line--long,
 .swal-icon--success__line--tip {
-  background-color: #68d372;
+  background-color: #DC143C; /* Changed to crimson */
 }
 
 .swal-icon--success::before,
@@ -1067,12 +1067,12 @@ h6 {
 .swal-button {
   padding: 8px;
   width: 80px;
-  background-color: #68d372;
+  background-color: #DC143C; /* Changed to crimson */
 }
 
 .swal-button:hover,
 .swal-button:active {
-  background-color: #68d372 !important;
+  background-color: #DC143C !important;
 }
 
 footer {
@@ -1190,9 +1190,9 @@ footer .support ul li a:hover {
 }
 
 .footer-rights .copyright p a:hover {
-  color: #68d372;
+  color: #DC143C; /* Changed to crimson */
   text-decoration-line: underline;
-  text-decoration-color: #68d372;
+  text-decoration-color: #DC143C; /* Changed to crimson */
   text-decoration-style: wavy;
 }
 
@@ -1201,7 +1201,7 @@ footer .support ul li a:hover {
 }
 
 .to-top {
-  position: fixed;
+  position : fixed;
   display: inline-block;
   bottom: 10px;
   opacity: 0;
@@ -1227,7 +1227,7 @@ footer .support ul li a:hover {
 }
 
 .to-top i {
-  color: #68d372;
+  color: #DC143C; /* Changed to crimson */
 }
 
 @media (max-width: 400px) {
@@ -1306,7 +1306,7 @@ footer .support ul li a:hover {
     width: 2px;
     height: 120px;
     display: block;
-    background-color: #68d372;
+    background-color: #DC143C; /* Changed to crimson */
     position: absolute;
     top: 0;
     left: 50%;
@@ -1368,7 +1368,7 @@ footer .support ul li a:hover {
     width: 2px;
     height: 100px;
     display: block;
-    background-color: #68d372;
+    background-color: #DC143C; /* Changed to crimson */
     position: absolute;
     top: 150px;
     left: 0;
@@ -1428,7 +1428,7 @@ footer .support ul li a:hover {
     transform: translateX(-50%);
     width: 2px;
     height: 104%;
-    background-color: #68d372;
+    background-color: #DC143C; /* Changed to crimson */
   }
 
   .timeline ul li {
@@ -1460,7 +1460,7 @@ footer .support ul li a:hover {
     width: 20px;
     margin: 0px 10px;
     border-radius: 50%;
-    border: 2px solid #68d372;
+    border: 2px solid #DC143C; /* Changed to crimson */
     background-color: #222222;
     top: 0px;
     transition: background-color 0.4s;
@@ -1473,8 +1473,8 @@ footer .support ul li a:hover {
     width: 20px;
     margin: 0px 10px;
     border-radius: 50%;
-    border: 2px solid #68d372;
-    background-color: #68d372;
+    border: 2px solid #DC143C; /* Changed to crimson */
+    background-color: #DC143C; /* Changed to crimson */
     bottom: -20px;
     right: -40px;
     transition: background-color 0.4s;
@@ -1512,13 +1512,13 @@ footer .support ul li a:hover {
   }
 
   .timeline ul li:hover::before {
-    background-color: #68d372;
+    background-color: #DC143C; /* Changed to crimson */
     scale: 120%;
   }
 
   .timeline ul .start:not(:hover)::after {
     pointer-events: none;
-    background-color: #68d372;
+    background-color: #DC143C; /* Changed to crimson */
   }
 
   #contact {
@@ -1625,7 +1625,7 @@ footer .support ul li a:hover {
   .navbar .nav-brand {
     position: relative;
     top: -10px;
-    background-color: #68d372;
+    background-color: #DC143C; /* Changed to crimson */
     display: inline-block;
     padding: 20px 10px 0px 10px;
     font-size: 2em;
@@ -1642,11 +1642,11 @@ footer .support ul li a:hover {
   }
 
   .navbar li .nav-link:hover {
-    color: #68d372 !important;
+    color: #DC143C; /* Changed to crimson */
   }
 
   .js-scroll-trigger:hover {
-    background-color: #68d37210 !important;
+    background-color: #DC143C10 !important;
     border-radius: 4px;
   }
 
@@ -1664,7 +1664,7 @@ footer .support ul li a:hover {
   }
 
   .navbar li .active {
-    color: #68d372;
+    color: #DC143C; /* Changed to crimson */
   }
 
   .navbar .navbar-toggler {
@@ -1718,7 +1718,7 @@ footer .support ul li a:hover {
   }
 
   .btn-contact:hover {
-    background-color: #68d37200 !important;
+    background-color: #DC143C00 !important;
   }
 
   .contact-btn {
@@ -1730,7 +1730,7 @@ footer .support ul li a:hover {
     content: "";
     left: -1.5px !important;
     top: -1px !important;
-    background: #68d372;
+    background: #DC143C; /* Changed to crimson */
     transition-duration: 0.3s;
     z-index: -1;
     inset: 0px auto auto 0px;
@@ -1746,7 +1746,7 @@ footer .support ul li a:hover {
   }
 
   .hb-fill-right-bg:hover {
-    background: #68d372;
+    background: #DC143C; /* Changed to crimson */
     transition: all 0.3s ease 0s;
   }
 
@@ -1755,7 +1755,7 @@ footer .support ul li a:hover {
     width: 122px;
     height: 2px;
     display: block;
-    background-color: #68d372;
+    background-color: #DC143C; /* Changed to crimson */
     position: absolute;
     top: 115px;
     left: -140px;
@@ -1772,7 +1772,7 @@ footer .support ul li a:hover {
 
   #about .section-title::before {
     width: 100px;
-    height: 2px;
+    height : 2px;
     position: absolute;
     top: 35px;
     float: left;
@@ -1791,6 +1791,14 @@ footer .support ul li a:hover {
     margin-left: 40px !important;
   }
 
+  .about-wrapper .left h2 {
+    font-size: 3rem;
+  }
+
+  .about-wrapper .right h2 {
+    font-size: 3rem;
+  }
+
   .about-wrapper .right {
     width: 50%;
     position: relative;
@@ -1801,7 +1809,7 @@ footer .support ul li a:hover {
     width: 2px;
     height: 100px;
     display: block;
-    background-color: #68d372;
+    background-color: #DC143C; /* Changed to crimson */
     position: absolute;
     top: 150px;
     left: -50px !important;
@@ -1954,7 +1962,7 @@ footer .support ul li a:hover {
   }
 
   .green {
-    color: #68d372;
+    color: #DC143C; /* Changed to crimson */
     font-size: 3rem;
     font-weight: 900;
   }
@@ -1969,7 +1977,7 @@ footer .support ul li a:hover {
 
   #contact {
     padding-bottom: 0px;
-    padding-top: 40px;
+    padding-top: 40 px;
   }
 
   #contact .contacts {
@@ -2020,6 +2028,6 @@ footer .support ul li a:hover {
   }
 
   .to-top i {
-    color: #68d372;
+    color: #DC143C; /* Changed to crimson */
   }
 }
