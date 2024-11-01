@@ -23,7 +23,7 @@ _Call-to-Action buttons_
 
 <div align="center">
 
-[![View site - SK Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://SubashSK777.github.io)
+[![View site - SK Pages](https://img.shields.io/badge/View_site-SK_Pages-2ea44f?style=for-the-badge)](https://SubashSK777.github.io)
 <hr/>
 </div>
 
